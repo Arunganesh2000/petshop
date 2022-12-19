@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.masthead {
+    background: linear-gradient(90deg, black, transparent 50%), url(images/cat005.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.btn:hover{
+    background-color: white!important;
+    transition: 0.2s;
+
+}
+.carousel-inner{
+    min-height: 300px;
+    width: 100%;
+}
+.card{
+    background: linear-gradient(rgb(243, 33, 33) ,black);
+    width: 50%;
+    margin: auto;
+}
+footer{
+    background-color:rgb(32, 32, 49);
+    color: white;
+}  
+.getin{
+    background-color: rgb(22, 22, 27);
+    color: white;
+}
+.getin h1{
+    font-size: 15px;
+    margin-left: 8%;
+}
+.icons{
+    margin-left: 120px;
+    font-size: 15px;
+    text-indent: 10px;
+}
+.icons :hover{
+    color: yellow;
+}
